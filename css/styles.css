@@ -984,9 +984,9 @@ a {
 /* ==============/MOBILE SPECIFIC STYLES========== */
 /* ===========MOBILE BACKGROUND 2x================= */
 
-@media screen and (min-width: 768px) and (min-resolution: 192dpi),
-  screen and (min-width: 768px) and (min-resolution: 2dppx),
-  screen and (min-width: 768px) and (min-device-pixel-ratio: 2) {
+@media screen and (max-width: 767px) and (min-resolution: 192dpi),
+  screen and (max-width: 767px) and (min-resolution: 2dppx),
+  screen and (max-width: 767px) and (min-device-pixel-ratio: 2) {
   .hero-container {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -1433,8 +1433,8 @@ a {
 /* ============DESKTOP BACKGROUND 2x================= */
 
 @media screen and (min-resolution: 192dpi) and (min-width: 1158px),
-  screen and (min-width: 768px) and (min-resolution: 2dppx),
-  screen and (min-width: 768px) and (min-device-pixel-ratio: 2) {
+  screen and (min-width: 1158px) and (min-resolution: 2dppx),
+  screen and (min-width: 1158px) and (min-device-pixel-ratio: 2) {
   .hero {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
