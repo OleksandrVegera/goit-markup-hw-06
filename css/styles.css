@@ -99,7 +99,6 @@ a {
 
 /* ==============/MOBILE HEADER================== */
 /* ==============MOBILE HERO================== */
-
 .hero-container {
   background-color: #2e2f42;
   background-image: linear-gradient(
@@ -153,10 +152,13 @@ a {
 /* ==============/MOBILE HERO================== */
 /* ==============MOBILE ABOUT US================== */
 
+.about-us {
+  background-color: #ffffff;
+}
+
 .about-us-container {
   padding-top: 96px;
   padding-bottom: 96px;
-  background-color: #ffffff;
 }
 
 .about-us-header {
@@ -207,11 +209,13 @@ a {
 
 /* ==============/MOBILE ABOUT US================== */
 /* ==============MOBILE OUR TEAM================== */
+.our-team {
+  background-color: #f4f4fd;
+}
 
 .our-team-container {
   padding-top: 96px;
   padding-bottom: 96px;
-  background-color: #f4f4fd;
 }
 
 .our-team-header {
@@ -313,10 +317,13 @@ a {
 /* ==============/MOBILE OUR TEAM================== */
 /* ==============MOBILE PORTFOLIO================== */
 
+.portfolio {
+  background-color: #ffffff;
+}
+
 .portfolio-container {
   padding-top: 96px;
   padding-bottom: 96px;
-  background-color: #ffffff;
 }
 
 .portfolio-header {
@@ -403,10 +410,13 @@ a {
 /* ==============/MOBILE PORTFOLIO================== */
 /* ==============MOBILE FOOTER================== */
 
+.page-footer {
+  background-color: #2e2f42;
+}
+
 .footer-container {
   padding-top: 96px;
   padding-bottom: 96px;
-  background-color: #2e2f42;
   display: flex;
   flex-direction: column;
   align-items: center;
