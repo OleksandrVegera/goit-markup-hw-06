@@ -3,6 +3,7 @@ document.addEventListener(
     function () {
         // прописуємо дата атрибути, в залежності від кільності модальних вікон, задаємо на backdrop
         const modals = [
+            "mobile-menu",
             "data-first-modal",
             "data-second-modal",
             "data-third-modal",

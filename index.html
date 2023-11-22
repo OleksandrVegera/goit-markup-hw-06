@@ -39,7 +39,7 @@
             </li>
           </ul>
         </nav>
-        <button class="mobile-header-menu-btn" type="button">
+        <button class="mobile-header-menu-btn" type="button" mobile-menu-open>
           <svg
             class="mobile-header-menu-btn-icon"
             width="24"
@@ -681,7 +681,7 @@
       </div>
     </footer>
     <!-- =============BACKDROP+MODAL FORM============== -->
-    <div class="backdrop is-hidden" modal-open>
+    <div class="backdrop is-hidden" data-first-modal>
       <div class="modal-window container">
         <button
           class="modal-window-close-button"
@@ -789,12 +789,14 @@
         </form>
       </div>
     </div>
-    <div class="menu-backdrop">
+    <!-- ==============MOBILE MENU BAKDROP=========== -->
+    <div class="menu-backdrop is-hidden" mobile-menu>
       <div class="menu container">
         <button
           class="menu-close-button"
           aria-label="close button"
           type="button"
+          mobile-menu-close
         >
           <svg class="menu-close-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
