@@ -71,7 +71,9 @@
       <section class="hero section">
         <div class="container hero-container">
           <h1 class="main-header">Effective Solutions for Your Business</h1>
-          <button class="hero-button" type="button">Order Service</button>
+          <button class="hero-button" type="button" data-first-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
 
@@ -678,12 +680,14 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop">
+    <!-- =============BACKDROP+MODAL FORM============== -->
+    <div class="backdrop is-hidden" modal-open>
       <div class="modal-window container">
         <button
           class="modal-window-close-button"
           aria-label="close button"
           type="button"
+          data-first-modal-close
         >
           <svg class="modal-window-close-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
@@ -875,5 +879,6 @@
         </ul>
       </div>
     </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
